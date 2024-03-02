@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f9250c-6a0f-4291-b639-26ac9a290f76" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/IsSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LongestPalindromicSubseq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PalindromeLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IsSubsequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LongestPalindromicSubseqTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LongestPalindromicSubstringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PalindromeLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LongestPalindromicSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +49,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "JUnit.Glovo.executor": "Run",
+    "JUnit.IsSubsequenceTest.executor": "Run",
     "JUnit.LongestNiceSubstringTest.executor": "Run",
+    "JUnit.LongestPalindromicSubseqTest.executor": "Run",
+    "JUnit.LongestPalindromicSubstringTest.executor": "Run",
     "JUnit.LongestSubstringTest.executor": "Run",
     "JUnit.ValidPalindromeTest.executor": "Run",
     "JUnit.ZigZagConversionTest.executor": "Run",
@@ -55,14 +66,15 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ValidPalindromeTest">
-    <configuration name="LengthOfLastWordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LongestPalindromicSubstringTest">
+    <configuration name="IsSubsequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LengthOfLastWordTest" />
+      <option name="MAIN_CLASS_NAME" value="IsSubsequenceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,10 +89,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubWithoutRepeatingCharTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestPalindromicSubseqTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestSubWithoutRepeatingCharTest" />
+      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubseqTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPalindromicSubstringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubstringTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,22 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZigZagConversionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ZigZagConversionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestPalindromicSubstringTest" />
+        <item itemvalue="JUnit.LongestPalindromicSubseqTest" />
+        <item itemvalue="JUnit.IsSubsequenceTest" />
         <item itemvalue="JUnit.ValidPalindromeTest" />
         <item itemvalue="JUnit.LongestNiceSubstringTest" />
-        <item itemvalue="JUnit.LengthOfLastWordTest" />
-        <item itemvalue="JUnit.LongestSubWithoutRepeatingCharTest" />
-        <item itemvalue="JUnit.ZigZagConversionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +136,7 @@
       <updated>1709138558816</updated>
       <workItem from="1709138559968" duration="10907000" />
       <workItem from="1709316998075" duration="1032000" />
-      <workItem from="1709364703483" duration="7063000" />
+      <workItem from="1709364703483" duration="21908000" />
     </task>
     <servers />
   </component>
