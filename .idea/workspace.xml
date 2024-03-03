@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f9250c-6a0f-4291-b639-26ac9a290f76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PalindromeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LongestCommonSubsequenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PalindromeNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AnagramInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PermutationString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ValidAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AnagramInStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PermutationStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ValidAnagramTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LongestNiceSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LongestNiceSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LongestPalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ValidPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ValidPalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ValidPalindromeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,65 +42,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;JUnit.Glovo.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.IsSubsequenceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LongestCommonSubsequenceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LongestNiceSubstringTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LongestPalindromicSubseqTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LongestPalindromicSubstringTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LongestSubstringTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PalindromeNumberTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ValidPalindromeTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ZigZagConversionTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.AnagramInStringTest.executor": "Run",
+    "JUnit.Glovo.executor": "Run",
+    "JUnit.IsSubsequenceTest.executor": "Run",
+    "JUnit.LongestCommonSubsequenceTest.executor": "Run",
+    "JUnit.LongestNiceSubstringTest.executor": "Run",
+    "JUnit.LongestPalindromicSubseqTest.executor": "Run",
+    "JUnit.LongestPalindromicSubstringTest.executor": "Run",
+    "JUnit.LongestSubstringTest.executor": "Run",
+    "JUnit.PalindromeNumberTest.executor": "Run",
+    "JUnit.PermutationStringTest.executor": "Run",
+    "JUnit.PermutationStringTest.testGetPermutations.executor": "Run",
+    "JUnit.ValidAnagramTest.executor": "Run",
+    "JUnit.ValidPalindromeTest.executor": "Run",
+    "JUnit.ZigZagConversionTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "development",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.ValidPalindromeTest">
-    <configuration name="LongestCommonSubsequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="JUnit.AnagramInStringTest">
+    <configuration name="AnagramInStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestCommonSubsequenceTest" />
+      <option name="MAIN_CLASS_NAME" value="AnagramInStringTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubseqTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PermutationStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubseqTest" />
+      <option name="MAIN_CLASS_NAME" value="PermutationStringTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubstringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PermutationStringTest.testGetPermutations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubstringTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="PermutationStringTest" />
+      <option name="METHOD_NAME" value="testGetPermutations" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidAnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PalindromeNumberTest" />
+      <option name="MAIN_CLASS_NAME" value="ValidAnagramTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnagramInStringTest" />
+        <item itemvalue="JUnit.PermutationStringTest.testGetPermutations" />
+        <item itemvalue="JUnit.PermutationStringTest" />
+        <item itemvalue="JUnit.ValidAnagramTest" />
         <item itemvalue="JUnit.ValidPalindromeTest" />
-        <item itemvalue="JUnit.LongestCommonSubsequenceTest" />
-        <item itemvalue="JUnit.LongestPalindromicSubstringTest" />
-        <item itemvalue="JUnit.PalindromeNumberTest" />
-        <item itemvalue="JUnit.LongestPalindromicSubseqTest" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +141,7 @@
       <workItem from="1709138559968" duration="10907000" />
       <workItem from="1709316998075" duration="1032000" />
       <workItem from="1709364703483" duration="28714000" />
-      <workItem from="1709440622647" duration="6789000" />
+      <workItem from="1709440622647" duration="14467000" />
     </task>
     <servers />
   </component>
