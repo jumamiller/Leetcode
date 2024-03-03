@@ -21,4 +21,14 @@ public class ValidPalindromeTest {
 
         assert(result==expected);
     }
+    @Test
+    @DisplayName("A valid Palindrome after deleting at most one character from it")
+    public void testValidPalindromeOnCharacterDeletion() {
+        String input="abca";
+        boolean expected=true;
+
+        boolean result=validPalindrome.validPalindromeOnCharacterDeletion(input);
+
+        assert(result==expected);
+    }
 }

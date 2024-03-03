@@ -1,5 +1,8 @@
 package org.example;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class LongestPalindromicSubstring {
     public String findLongestPalindromicSubstr(String s) {
         if (s.length() <= 1) {
@@ -39,6 +42,7 @@ public class LongestPalindromicSubstring {
         int start=0;
         //lets define default maxLength
         int maxLength=1;
+
         Boolean[][] dp =new Boolean[n][n];
         //we know that if s.length=1, then it's a palindrome
         for (int i=0;i<n;i++) {
@@ -66,5 +70,39 @@ public class LongestPalindromicSubstring {
             }
         }
         return s.substring(start,start+maxLength);
+    }
+    public String longestPalindrome(String s) {
+        Map<String, Boolean> memo = new HashMap<>();
+
+        if (s == null || s.isEmpty()) return "";
+        String longest = "";
+
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = i + 1; j <= s.length(); j++) {
+                String substring = s.substring(i, j);
+                if (isPalindrome(substring,memo) && substring.length() > longest.length()) {
+                    longest = substring;
+                }
+            }
+        }
+        return longest;
+    }
+    public static boolean isPalindrome(String s, Map<String, Boolean> memo) {
+        if (memo.containsKey(s)) {
+            return memo.get(s);
+        }
+        int left = 0;
+        int right = s.length() - 1;
+
+        while (left < right) {
+            if (s.charAt(left) != s.charAt(right)) {
+                memo.put(s,false);
+                return false;
+            }
+            left++;
+            right--;
+        }
+        memo.put(s,false);
+        return true;
     }
 }

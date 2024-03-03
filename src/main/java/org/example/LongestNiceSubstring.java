@@ -1,9 +1,5 @@
 package org.example;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
-
 public class LongestNiceSubstring {
 
     public String findLongestSubstring(String s) {
