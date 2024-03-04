@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f9250c-6a0f-4291-b639-26ac9a290f76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AnagramInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PermutationString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ValidAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AnagramInStringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PermutationStringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ValidAnagramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CapacityToShipPackages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BinarySearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CapacityToShipPackagesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +44,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "JUnit.AnagramInStringTest.executor": "Run",
+    "JUnit.BinarySearchTest.executor": "Run",
     "JUnit.Glovo.executor": "Run",
     "JUnit.IsSubsequenceTest.executor": "Run",
     "JUnit.LongestCommonSubsequenceTest.executor": "Run",
@@ -73,11 +72,29 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AnagramInStringTest">
+  <component name="RunManager" selected="JUnit.BinarySearchTest">
     <configuration name="AnagramInStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AnagramInStringTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CapacityToShipPackagesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CapacityToShipPackagesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,31 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ValidAnagramTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidPalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ValidPalindromeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinarySearchTest" />
+        <item itemvalue="JUnit.CapacityToShipPackagesTest" />
         <item itemvalue="JUnit.AnagramInStringTest" />
         <item itemvalue="JUnit.PermutationStringTest.testGetPermutations" />
         <item itemvalue="JUnit.PermutationStringTest" />
-        <item itemvalue="JUnit.ValidAnagramTest" />
-        <item itemvalue="JUnit.ValidPalindromeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +140,8 @@
       <workItem from="1709138559968" duration="10907000" />
       <workItem from="1709316998075" duration="1032000" />
       <workItem from="1709364703483" duration="28714000" />
-      <workItem from="1709440622647" duration="14467000" />
+      <workItem from="1709440622647" duration="17172000" />
+      <workItem from="1709521538003" duration="1919000" />
     </task>
     <servers />
   </component>
