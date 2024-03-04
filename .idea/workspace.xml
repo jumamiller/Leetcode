@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f9250c-6a0f-4291-b639-26ac9a290f76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CapacityToShipPackages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BinarySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CapacityToShipPackagesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TwoSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +53,7 @@
     "JUnit.PalindromeNumberTest.executor": "Run",
     "JUnit.PermutationStringTest.executor": "Run",
     "JUnit.PermutationStringTest.testGetPermutations.executor": "Run",
+    "JUnit.TwoSumTest.executor": "Run",
     "JUnit.ValidAnagramTest.executor": "Run",
     "JUnit.ValidPalindromeTest.executor": "Run",
     "JUnit.ZigZagConversionTest.executor": "Run",
@@ -72,7 +71,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.BinarySearchTest">
+  <component name="RunManager" selected="JUnit.TwoSumTest">
     <configuration name="AnagramInStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="PACKAGE_NAME" value="" />
@@ -100,15 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PermutationStringTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PermutationStringTest.testGetPermutations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="PACKAGE_NAME" value="" />
@@ -119,13 +109,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TwoSumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TwoSumTest" />
         <item itemvalue="JUnit.BinarySearchTest" />
         <item itemvalue="JUnit.CapacityToShipPackagesTest" />
         <item itemvalue="JUnit.AnagramInStringTest" />
         <item itemvalue="JUnit.PermutationStringTest.testGetPermutations" />
-        <item itemvalue="JUnit.PermutationStringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +140,7 @@
       <workItem from="1709316998075" duration="1032000" />
       <workItem from="1709364703483" duration="28714000" />
       <workItem from="1709440622647" duration="17172000" />
-      <workItem from="1709521538003" duration="1919000" />
+      <workItem from="1709521538003" duration="4022000" />
     </task>
     <servers />
   </component>
