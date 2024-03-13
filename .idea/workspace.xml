@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f9250c-6a0f-4291-b639-26ac9a290f76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TwoSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SockPairing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SockPairingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/InorderTraversalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -44,6 +48,7 @@
     "JUnit.AnagramInStringTest.executor": "Run",
     "JUnit.BinarySearchTest.executor": "Run",
     "JUnit.Glovo.executor": "Run",
+    "JUnit.InorderTraversalTest.executor": "Run",
     "JUnit.IsSubsequenceTest.executor": "Run",
     "JUnit.LongestCommonSubsequenceTest.executor": "Run",
     "JUnit.LongestNiceSubstringTest.executor": "Run",
@@ -53,6 +58,7 @@
     "JUnit.PalindromeNumberTest.executor": "Run",
     "JUnit.PermutationStringTest.executor": "Run",
     "JUnit.PermutationStringTest.testGetPermutations.executor": "Run",
+    "JUnit.SockPairingTest.executor": "Run",
     "JUnit.TwoSumTest.executor": "Run",
     "JUnit.ValidAnagramTest.executor": "Run",
     "JUnit.ValidPalindromeTest.executor": "Run",
@@ -60,6 +66,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
     "git-widget-placeholder": "development",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -71,16 +80,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TwoSumTest">
-    <configuration name="AnagramInStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnagramInStringTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.InorderTraversalTest">
     <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="PACKAGE_NAME" value="" />
@@ -99,12 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationStringTest.testGetPermutations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InorderTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.InorderTraversalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SockPairingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PermutationStringTest" />
-      <option name="METHOD_NAME" value="testGetPermutations" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="SockPairingTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InorderTraversalTest" />
+        <item itemvalue="JUnit.SockPairingTest" />
         <item itemvalue="JUnit.TwoSumTest" />
         <item itemvalue="JUnit.BinarySearchTest" />
         <item itemvalue="JUnit.CapacityToShipPackagesTest" />
-        <item itemvalue="JUnit.AnagramInStringTest" />
-        <item itemvalue="JUnit.PermutationStringTest.testGetPermutations" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +162,9 @@
       <workItem from="1709316998075" duration="1032000" />
       <workItem from="1709364703483" duration="28714000" />
       <workItem from="1709440622647" duration="17172000" />
-      <workItem from="1709521538003" duration="4022000" />
+      <workItem from="1709521538003" duration="7238000" />
+      <workItem from="1710342084343" duration="623000" />
+      <workItem from="1710346236939" duration="1540000" />
     </task>
     <servers />
   </component>
