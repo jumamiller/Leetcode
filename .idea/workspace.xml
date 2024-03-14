@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f9250c-6a0f-4291-b639-26ac9a290f76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/InorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SockPairing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SockPairingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/InorderTraversalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UniqueBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/UniqueBinaryTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -60,6 +57,7 @@
     "JUnit.PermutationStringTest.testGetPermutations.executor": "Run",
     "JUnit.SockPairingTest.executor": "Run",
     "JUnit.TwoSumTest.executor": "Run",
+    "JUnit.UniqueBinaryTreeTest.executor": "Run",
     "JUnit.ValidAnagramTest.executor": "Run",
     "JUnit.ValidPalindromeTest.executor": "Run",
     "JUnit.ZigZagConversionTest.executor": "Run",
@@ -88,20 +86,11 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InorderTraversalTest">
+  <component name="RunManager" selected="JUnit.UniqueBinaryTreeTest">
     <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BinarySearchTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CapacityToShipPackagesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CapacityToShipPackagesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,13 +129,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniqueBinaryTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.UniqueBinaryTreeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UniqueBinaryTreeTest" />
         <item itemvalue="JUnit.InorderTraversalTest" />
         <item itemvalue="JUnit.SockPairingTest" />
         <item itemvalue="JUnit.TwoSumTest" />
         <item itemvalue="JUnit.BinarySearchTest" />
-        <item itemvalue="JUnit.CapacityToShipPackagesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +168,7 @@
       <workItem from="1709440622647" duration="17172000" />
       <workItem from="1709521538003" duration="7238000" />
       <workItem from="1710342084343" duration="623000" />
-      <workItem from="1710346236939" duration="1540000" />
+      <workItem from="1710346236939" duration="5194000" />
     </task>
     <servers />
   </component>
